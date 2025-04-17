@@ -1,5 +1,6 @@
-CMAKE_MINIMUM_REQUIRED(VERSION 2.6)
+CMAKE_MINIMUM_REQUIRED(VERSION 3.15)
 
+project (libraryStable)
 
 SET(SRC  iio.c            iio.h           libraryBasic.cpp libraryBasic.h )
 

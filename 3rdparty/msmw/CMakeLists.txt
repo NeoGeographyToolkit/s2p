@@ -1,5 +1,7 @@
 CMAKE_MINIMUM_REQUIRED(VERSION 3.15)
 
+project(msmw)
+
 SET(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -O3 -funroll-loops -Wno-unused -DNDEBUG")
 SET(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -O3 -funroll-loops -Wno-unused -DNDEBUG")
 
